@@ -14,3 +14,9 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .navbar {
+    @apply hover:bg-secondary hover:text-primary py-4 px-8;
+  }
+}

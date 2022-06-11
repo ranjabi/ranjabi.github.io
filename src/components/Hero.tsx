@@ -2,11 +2,11 @@ import { Fragment } from "react";
 
 const Hero = () => {
   return (
-    <div className="px-48 py-32 bg-slate-400">
-      <h1 className="text-4xl">Fikri Ranjabi</h1>
-      <p>3rd year computer science student,
+    <div className="px-48 py-32 bg-primary">
+      <h1 className="text-4xl text-secondary">Fikri Ranjabi</h1>
+      <p className="text-white">3rd year computer science student,
       </p>
-      <p>
+      <p className="text-white">
         front end web developemt enthusiast,
       </p>
     </div>

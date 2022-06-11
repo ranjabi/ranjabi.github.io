@@ -1,10 +1,10 @@
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center bg-slate-500 h-14 text-xl font-medium">
+    <nav className="flex justify-between items-center bg-primary text-white h-14 text-xl font-medium">
       <a href="" className="ml-36">&lt;fikriranjabi/&gt;</a>
       <div className="mr-40">
-        <a href="" className="mx-8">Contact</a>
-        <a href="" className="mx-8">Project</a>
+        <a href="" className="navbar">Contact</a>
+        <a href="" className="navbar">Project</a>
       </div>
     </nav>
   )
