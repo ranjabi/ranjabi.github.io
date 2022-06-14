@@ -1,18 +1,21 @@
 const Card = (props: any) => {
   return (
-    <div className="relative w-[342px] h-[465px]">
-      <div className="bg-primary w-[342px] h-[465px] rounded-[6px] p-5 border-[1px] border-secondary absolute z-[1]">
-        {props.children}
+      <div className="m-4 p-4 md:w-5/12 lg:w-3/12 drop-shadow-xl rounded-[6px] bg-primary  z-[1]">
+        <h1 className="mb-4 text-xl font-semibold">{props.title}</h1>
+        <img
+          src={props.img}
+          alt=""
+          className="rounded-[4px]"
+        />
+        <p className="mt-4 text-gray-600 font-medium">
+          {props.description}
+        </p>
+        <p className="mt-5 text-sm font-bold text-gray-700 tracking-widest">
+          {props.tech}
+        </p>
+        {/* <div className="bg-secondary top-[12px] left-[12px] rounded-[6px] ">&nbsp;</div> */}
       </div>
-      <div className="bg-secondary w-[342px] h-[465px] top-[12px] left-[12px] rounded-[6px] absolute">&nbsp;</div>
-    </div>
-  )
+  );
 };
-
-{/* <Card>
-            <h1 className="pb-4 text-xl font-semibold">DNA Tester</h1>
-            <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="" className="mb-4 item-center" />
-            <p>Knuth-Morris-Pratt dan Boyer-Moore untuk String Matching, algoritma Longest Common Subsequence untuk menghitung tingkat similaritas, serta Regular Expression untuk filter pada pencarian dan sanitasi input.</p>
-          </Card> */}
 
 export default Card;

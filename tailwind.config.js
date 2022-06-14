@@ -10,9 +10,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      container: {
+        center: true,
+      },
       colors: {
-        primary: "#CBF457",
-        secondary: "#18181b",
+        primary: "#FFE8C5",
+        secondary: "#1E1E1E",
         tertiary: "#514ED4",
       },
       spacing: {
