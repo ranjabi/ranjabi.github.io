@@ -11,7 +11,7 @@ const projectList = [
 ];
 const Projects = () => {
   return (
-    <div className='mt-16'>
+    <div className='container mt-16 md:mt-20 lg:mt-24'>
       {/* <h1 className="mt-[80px] mb-[60px] text-center text-5xl font-semibold"></h1> */}
       <h1 className="mb-12 text-center text-4xl font-semibold">
         Projects
