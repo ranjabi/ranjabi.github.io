@@ -28,18 +28,17 @@ const Navbar = () => {
           </button>
 
           <nav
-              id="nav-menu"
-              className={`absolute right-4 ${click ? 'visible' : 'hidden'} top-full w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:bg-dark dark:shadow-slate-500 lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none lg:dark:bg-transparent `}
+              className={`absolute right-4 ${click ? 'visible' : 'hidden'} top-full w-full max-w-[200px] rounded-lg bg-white py-4 drop-shadow-md md:static md:block md:max-w-full md:rounded-none md:bg-transparent md:shadow-none md:dark:bg-transparent `}
             >
-              <ul className="block lg:flex">
+              <ul className="block md:flex">
                 <li className="group">
-                  <a href="#home" className="mx-8 flex py-2 text-base text-secondary lg:text-primary group-hover:text-secondary lg:group-hover:text-primary">Home</a>
+                  <a href="#home" className="mx-8 flex py-2 text-base text-secondary md:text-primary group-hover:text-secondary lg:group-hover:text-primary">Home</a>
                 </li>
                 <li className="group">
-                  <a href="#portfolio" className="mx-8 flex py-2 text-base text-secondary lg:text-primary group-hover:text-secondary  lg:group-hover:text-primary">Projects</a>
+                  <a href="#portfolio" className="mx-8 flex py-2 text-base text-secondary md:text-primary group-hover:text-secondary  lg:group-hover:text-primary">Projects</a>
                 </li>
                 <li className="group">
-                  <a href="#contact" className="mx-8 flex py-2 text-base text-secondary lg:text-primary group-hover:text-secondary lg:group-hover:text-primary">Contact</a>
+                  <a href="#contact" className="mx-8 flex py-2 text-base text-secondary md:text-primary group-hover:text-secondary lg:group-hover:text-primary">Contact</a>
                 </li>
               </ul>
             </nav>
