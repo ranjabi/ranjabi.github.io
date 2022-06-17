@@ -3,6 +3,7 @@ import { Fragment } from 'react';
 
 const dnatesterimg = require('../assets/dnatester.png');
 const myemotionsimg = require('../assets/myemotions.png');
+const todolistimg = require('../assets/todolist.png')
 
 const projectList = [
   {
@@ -32,7 +33,7 @@ const projectList = [
 
   {
     title: 'To Do List',
-    img: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg',
+    img: todolistimg,
     desc: 'To Do List Web App to track your activites.',
     tech: 'ReactJS',
     github: 'https://github.com/ranjabi/to-do-list',
