@@ -4,6 +4,7 @@ import { Fragment } from 'react';
 const dnatesterimg = require('../assets/dnatester.png');
 const myemotionsimg = require('../assets/myemotions.png');
 const todolistimg = require('../assets/todolist.png')
+const nimfinderimg = require('../assets/nimfinder.png')
 
 const projectList = [
   {
@@ -15,8 +16,8 @@ const projectList = [
     demo: '',
   },
   {
-    title: 'ITB Nim Finder',
-    img: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg',
+    title: 'Nim Finder',
+    img: nimfinderimg,
     desc: 'Web App to search ITB students based on their student ID, faculty, and major.',
     tech: 'ReactJS',
     github: 'https://github.com/ranjabi/itb-nim-finder',
