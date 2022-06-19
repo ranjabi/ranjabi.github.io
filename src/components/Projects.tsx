@@ -15,14 +15,6 @@ const projectList = [
     demo: '',
   },
   {
-    title: 'DNA Tester',
-    img: dnatesterimg,
-    desc: 'DNA Pattern Matching Website using String Matching and Regular Expression.',
-    tech: 'ReactJS Node.js PostgreSQL',
-    github: 'https://github.com/ranjabi/Tubes3_13520002',
-    demo: 'https://dna-tester.netlify.app/',
-  },
-  {
     title: 'ITB Nim Finder',
     img: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg',
     desc: 'Web App to search ITB students based on their student ID, faculty, and major.',
@@ -30,14 +22,13 @@ const projectList = [
     github: 'https://github.com/ranjabi/itb-nim-finder',
     demo: '',
   },
-
   {
-    title: 'To Do List',
-    img: todolistimg,
-    desc: 'To Do List Web App to track your activites.',
-    tech: 'ReactJS',
-    github: 'https://github.com/ranjabi/to-do-list',
-    demo: '',
+    title: 'DNA Tester',
+    img: dnatesterimg,
+    desc: 'DNA Pattern Matching Website using String Matching and Regular Expression.',
+    tech: 'ReactJS Node.js PostgreSQL',
+    github: 'https://github.com/ranjabi/Tubes3_13520002',
+    demo: 'https://dna-tester.netlify.app/',
   },
 ];
 
@@ -48,6 +39,14 @@ const etc = [
     desc: 'Image Compression Website using SVD Algorithm in Flask.',
     tech: 'Flask',
     github: 'https://github.com/ranjabi/Algeo02-20002',
+    demo: '',
+  },
+  {
+    title: 'To Do List',
+    img: todolistimg,
+    desc: 'To Do List Web App to track your activites.',
+    tech: 'ReactJS',
+    github: 'https://github.com/ranjabi/to-do-list',
     demo: '',
   },
 ]
