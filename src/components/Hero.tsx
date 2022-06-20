@@ -12,7 +12,7 @@ const Hero = () => {
             Front-end <br /> Web Developer
           </h1>
           <p className="mt-2 lg:text-xl">
-            3rd year computer science student,
+            computer science student,
             <br /> gunpla builder
           </p>
         </div>
