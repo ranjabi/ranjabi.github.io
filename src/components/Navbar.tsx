@@ -32,13 +32,13 @@ const Navbar = () => {
             >
               <ul className="block md:flex">
                 <li className="group">
-                  <a href="#home" className="mx-8 flex py-2 text-base text-secondary md:text-primary group-hover:text-secondary lg:group-hover:text-primary">Home</a>
+                  <a href="#home" className="mx-8 flex py-2 text-base text-secondary md:text-primary group-hover:text-primary lg:group-hover:text-primary">Home</a>
                 </li>
                 <li className="group">
-                  <a href="#portfolio" className="mx-8 flex py-2 text-base text-secondary md:text-primary group-hover:text-secondary  lg:group-hover:text-primary">Projects</a>
+                  <a href="#projects" className="mx-8 flex py-2 text-base text-secondary md:text-primary group-hover:text-primary  lg:group-hover:text-primary">Projects</a>
                 </li>
                 <li className="group">
-                  <a href="#contact" className="mx-8 flex py-2 text-base text-secondary md:text-primary group-hover:text-secondary lg:group-hover:text-primary">Contact</a>
+                  <a href="#contact" className="mx-8 flex py-2 text-base text-secondary md:text-primary group-hover:text-primary lg:group-hover:text-primary">Contact</a>
                 </li>
               </ul>
             </nav>

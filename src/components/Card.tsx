@@ -2,7 +2,7 @@ const Card = (props: any) => {
   return (
     <a
       href={props.github}
-      className="relative m-4 p-4 md:w-5/12 lg:w-3/12 drop-shadow-xl rounded-[6px] bg-primary  z-[1]"
+      className="relative w-full m-4 p-4 md:w-5/12 lg:w-3/12 drop-shadow-xl rounded-[6px] bg-primary  z-[1]"
     >
       <h1 className="mb-4 text-xl font-semibold">{props.title}</h1>
       <img
