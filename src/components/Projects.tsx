@@ -8,9 +8,17 @@ const nimfinderimg = require('../assets/nimfinder.png')
 
 const projectList = [
   {
+    title: 'Blog List',
+    img: 'https://raw.githubusercontent.com/ranjabi/fullstackopen2022/main/part5/bloglist-frontend/src/assets/main-page.png',
+    desc: 'Manage your blog lists and give a like to other"s collections.',
+    tech: 'ReactJS Node Express MongoDB',
+    github: 'https://github.com/ranjabi/fullstackopen2022/tree/main/part5/bloglist-frontend',
+    demo: '',
+  },
+  {
     title: 'My Emotions',
     img: myemotionsimg,
-    desc: 'Web App to track your daily emotion.',
+    desc: 'Track and see your daily emotion transformation.',
     tech: 'ReactJS',
     github: 'https://github.com/ranjabi/my-emotions',
     demo: '',
@@ -18,7 +26,7 @@ const projectList = [
   {
     title: 'Nim Finder',
     img: nimfinderimg,
-    desc: 'Web App to search ITB students based on their student ID, faculty, and major.',
+    desc: 'Search ITB students name based on their student ID, faculty, or major.',
     tech: 'ReactJS',
     github: 'https://github.com/ranjabi/itb-nim-finder',
     demo: '',
@@ -26,15 +34,15 @@ const projectList = [
   {
     title: 'To Do List',
     img: todolistimg,
-    desc: 'To Do List Web App to track your activites.',
+    desc: 'Track and never forget your activites.',
     tech: 'ReactJS',
     github: 'https://github.com/ranjabi/to-do-list',
     demo: '',
   },
   {
-    title: 'DNA Tester',
+    title: 'Disease Detector',
     img: dnatesterimg,
-    desc: 'DNA Pattern Matching Website using String Matching and Regular Expression.',
+    desc: 'Check if a person is infected by a disease.',
     tech: 'ReactJS Node.js PostgreSQL',
     github: 'https://github.com/ranjabi/Tubes3_13520002',
     demo: 'https://dna-tester.netlify.app/',
