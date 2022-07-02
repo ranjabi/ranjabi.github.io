@@ -12,7 +12,7 @@ const projectList = [
     img: 'https://raw.githubusercontent.com/ranjabi/fullstackopen2022/main/part5/bloglist-frontend/src/assets/main-page.png',
     desc: 'Manage your blog lists and give a like to other"s collections.',
     tech: 'ReactJS Node Express MongoDB',
-    github: 'https://github.com/ranjabi/fullstackopen2022/tree/main/part5/bloglist-frontend',
+    github: 'https://github.com/ranjabi/bloglist-dashboard',
     demo: '',
   },
   {
