@@ -9,7 +9,7 @@ const nimfinderimg = require('../assets/nimfinder.png')
 const projectList = [
   {
     title: 'Blog List',
-    img: 'https://github.com/ranjabi/bloglist-dashboard/blob/main/frontend/src/assets/main-page.png',
+    img: 'https://raw.githubusercontent.com/ranjabi/bloglist-dashboard/main/frontend/src/assets/main-page.png',
     desc: 'Manage your blog lists and give a like to other"s collections.',
     tech: 'ReactJS Node Express MongoDB',
     github: 'https://github.com/ranjabi/bloglist-dashboard',
