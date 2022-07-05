@@ -1,5 +1,4 @@
 import Card from './Card';
-import { Fragment } from 'react';
 
 const dnatesterimg = require('../assets/dnatester.png');
 const myemotionsimg = require('../assets/myemotions.png');
@@ -8,12 +7,20 @@ const nimfinderimg = require('../assets/nimfinder.png')
 
 const projectList = [
   {
-    title: 'Blog List',
-    img: 'https://raw.githubusercontent.com/ranjabi/fullstackopen2022/main/part5/bloglist-frontend/src/assets/main-page.png',
+    title: 'Bloglist Dashboard',
+    img: 'https://raw.githubusercontent.com/ranjabi/bloglist-dashboard/main/frontend/src/assets/main-page.png',
     desc: 'Manage your blog lists and give a like to other"s collections.',
     tech: 'ReactJS Node Express MongoDB',
     github: 'https://github.com/ranjabi/fullstackopen2022/tree/main/part5/bloglist-frontend',
     demo: '',
+  },
+  {
+    title: 'Disease Detector',
+    img: dnatesterimg,
+    desc: 'Check if a person is infected by a disease.',
+    tech: 'ReactJS Node.js PostgreSQL',
+    github: 'https://github.com/ranjabi/Tubes3_13520002',
+    demo: 'https://dna-tester.netlify.app/',
   },
   {
     title: 'My Emotions',
@@ -39,14 +46,7 @@ const projectList = [
     github: 'https://github.com/ranjabi/to-do-list',
     demo: '',
   },
-  {
-    title: 'Disease Detector',
-    img: dnatesterimg,
-    desc: 'Check if a person is infected by a disease.',
-    tech: 'ReactJS Node.js PostgreSQL',
-    github: 'https://github.com/ranjabi/Tubes3_13520002',
-    demo: 'https://dna-tester.netlify.app/',
-  },
+  
 ];
 
 const etc = [
